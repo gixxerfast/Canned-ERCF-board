@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "canned-ercf-board")(type "KiCad")(uri "${KIPRJMOD}/canned-ercf-board.kicad_sym")(options "")(descr ""))
+)

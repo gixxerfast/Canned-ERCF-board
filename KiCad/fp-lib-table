@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name canned-ercf-board)(type KiCad)(uri ${KIPRJMOD}/canned-ercf-board.pretty)(options "")(descr ""))
+)
