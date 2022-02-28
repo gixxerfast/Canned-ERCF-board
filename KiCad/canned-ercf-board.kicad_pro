@@ -45,19 +45,17 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "courtyards_overlap|130092246|122053001|27b746f8-41b0-4edf-8336-bbd1458dbba8|6e3dcf95-6a6f-4bef-9b3f-ef06bd8c1ebc",
-        "courtyards_overlap|137712001|120809001|00000000-0000-0000-0000-000060b30167|27b746f8-41b0-4edf-8336-bbd1458dbba8",
-        "courtyards_overlap|151387258|121926001|00000000-0000-0000-0000-000060b38b62|7b0519c4-eb90-4bb8-9677-404783e34386",
-        "courtyards_overlap|159175001|120809001|00000000-0000-0000-0000-000060b30150|00000000-0000-0000-0000-000060b38b62",
-        "courtyards_overlap|95294001|128048001|00000000-0000-0000-0000-000060b30122|62dc2781-4c48-418c-86f2-4efc3d802096",
-        "items_not_allowed|126365000|139700000|f99943d3-df61-4419-8e4f-b4b06d6ad5fc|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|90170000|113030000|3324b21d-a629-490f-ba79-7245f24de38c|00000000-0000-0000-0000-000000000000"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -125,7 +123,12 @@
         0.0,
         1.0
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -376,6 +379,46 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "HI_CUR",
+        "nets": [
+          "+5V"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.2,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LOW_CUR",
+        "nets": [
+          "+3V3"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "MOT",
         "nets": [
           "Net-(J7-Pad1)",
@@ -405,8 +448,6 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
-          "+3V3",
-          "+5V",
           "GND",
           "VDC"
         ],
@@ -476,6 +517,18 @@
     [
       "ba92f378-1477-40e4-9561-cf46ac064f6a",
       ""
+    ],
+    [
+      "ed9a64cc-5a83-4784-ba3a-2dba88b6189e",
+      "MCU"
+    ],
+    [
+      "06b1f892-4174-4c6c-ab49-7653d6089466",
+      "Input_output"
+    ],
+    [
+      "eaaea56e-3a5a-4aae-86ce-a8b59ba9cce9",
+      "Drivers"
     ]
   ],
   "text_variables": {}

@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1103)
+    (start_pass_no 1)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -65,12 +65,12 @@
     PWR "Via[0-1]_1000:600_um-PWR"
   )
   (class default
-    ENCODER SERVO EXTRA "unconnected-(A1-Pad2)" "unconnected-(A1-Pad3)" "unconnected-(A1-Pad4)" "unconnected-(U2-PadJP5_1)" "unconnected-(U3-PadJP3_1)"
-    "unconnected-(U3-PadJP5_1)" "DIAG_0" "DIAG_1" "DIR_1" "DRIVES_EN" "DIR_0" "STEP_0" "unconnected-(A1-Pad13)"
-    "STEP_1" "CAN_H" "CAN_L" "unconnected-(A1-Pad19)" "unconnected-(A1-Pad20)" "unconnected-(A1-Pad21)" "unconnected-(A1-Pad22)" "unconnected-(A1-Pad23)"
-    ENDSTOP "DRIVES_UART" "unconnected-(A1-Pad26)" TX "unconnected-(A1-Pad28)" "unconnected-(A1-Pad29)" "unconnected-(A1-Pad30)" "unconnected-(A1-Pad31)"
-    "Net-(JP1-Pad2)" "Net-(JP2-Pad3)" "Net-(JP2-Pad1)" "Net-(JP3-Pad3)" "Net-(JP3-Pad1)" "unconnected-(U2-PadJP3_1)" "Net-(D1-Pad1)" "Net-(D2-Pad1)"
-    "Net-(D3-Pad1)"
+    "IO_2" "VIN_MON" "Net-(A1-Pad5)" "IO_3" "unconnected-(A1-Pad3)" "unconnected-(A1-Pad4)" "unconnected-(U2-PadJP5_1)" "unconnected-(U3-PadJP3_1)"
+    "unconnected-(U3-PadJP5_1)" "DRIVER_0_DIAG" "DRIVER_1_DIAG" "DRIVER_1_DIR" "DRIVES_EN" "DRIVER_0_DIR" "DRIVER_0_STEP" "unconnected-(A1-Pad13)"
+    "DRIVER_1_STEP" "CAN_H" "CAN_L" "unconnected-(A1-Pad19)" "unconnected-(A1-Pad20)" "unconnected-(A1-Pad21)" "unconnected-(A1-Pad22)" "unconnected-(A1-Pad23)"
+    "IO_1" "DRIVER_RX" "unconnected-(A1-Pad26)" "DRIVER_TX" "unconnected-(A1-Pad28)" "unconnected-(A1-Pad29)" "unconnected-(A1-Pad30)" "unconnected-(A1-Pad31)"
+    "Net-(JP1-Pad2)" "Net-(JP2-Pad3)" "Net-(JP2-Pad1)" "Net-(JP3-Pad3)" "Net-(JP3-Pad1)" "unconnected-(U2-PadJP3_1)" "Net-(D3-Pad1)" "IO_0_OUT"
+    "IO_3_IN" "IO_2_IN" "IO_1_IN" "unconnected-(D2-Pad2)" "Net-(D4-Pad1)" "Net-(D5-Pad1)"
     (clearance_class default)
     (via_rule default)
     (rule

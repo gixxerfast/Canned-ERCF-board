@@ -1,9 +1,9 @@
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-F_Cu.gtl'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-B_Cu.gbl'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-F_Paste.gtp'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-F_Silkscreen.gto'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-B_Silkscreen.gbo'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-F_Mask.gts'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-B_Mask.gbs'.
-Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\gerber\canned-ercf-board-Edge_Cuts.gm1'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-F_Cu.gtl'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-B_Cu.gbl'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-F_Paste.gtp'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-F_Silkscreen.gto'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-B_Silkscreen.gbo'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-F_Mask.gts'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-B_Mask.gbs'.
+Plotted to 'C:\Users\gixxe\repos\Canned-ERCF-board\KiCad\gerber\canned-ercf-board-Edge_Cuts.gm1'.
 Info: Done.
