@@ -12,7 +12,7 @@ The board uses a Atmel/Microchip SAM C21 microcontroller module with USB and CAN
 
 The firmware is a modified version of the [Duet3Expansion Sammy-C21 firmware](https://github.com/Duet3D/Duet3Expansion) by [Duet3D](https://www.duet3d.com/)  
 
-You can find the fork of the modfied Duet firmware [here](https://github.com/gixxerfast/Duet3Expansion). As the versions are moving rapidly with the new RRF version 3.4 there's no guarantees that this will be kept in synch.
+You can find the fork of the modfied Duet firmware [here](https://github.com/gixxerfast/Duet3Expansion/tree/cannedboard). As the versions are moving rapidly with the new RRF version 3.4 there's no guarantees that this will be kept in synch.
 
 **Please note that this board will not work with the standard Duet Sammy firmware.**
 
@@ -21,7 +21,7 @@ The board features the following functions:
 - Support for up to two TMC2209 stepsticks Stepper motor drivers with UART control
 - 1500 mA 24V-5V efficient switching voltage regulator. 
 - Three GPIO inputs 3.3V signal inputs that may be used for encoders and endstops with 3.3V source.
-- One 3.3V PWM output for servo control with 5V source.
+- One 3.3V PWM output for hobby micro servo control with 5V source. Note that the general advice is not to source power to the servo via the board but to have a separate 5V source.
 - MCU Module. It's using the Atmel/Microchip ATSAMC21G18A based Sammy-C21 MCU-module
 - Input over voltage protection up to 30V
 - VIN voltage monitoring.
