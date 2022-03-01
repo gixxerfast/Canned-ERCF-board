@@ -8,6 +8,8 @@ Enraged Rabbit Carrot Feeder CAN-FD expansion board for Duet3
 
 The Canned ERCF board is a general purpose Duet 3 CAN extansion board but specifically made to support the [ERCF](https://github.com/EtteGit/EnragedRabbitProject) multifilament feeder system based on the [ERCF Easy Brd](https://github.com/Tircown/ERCF-easy-brd) by Tircown.
 
+Check out the [Duet RRF ERCF macros](https://github.com/pfn/EnragedRabbitOnRRF?ref=https://coder.social) by pfn. With these macros you should be able to use a RRF equipped printer and run multi filament prints as with the original ERCF macros as long as you have enough ports and motors available.
+
 The board uses a Atmel/Microchip SAM C21 microcontroller module with USB and CAN, the [Sammy-C21](https://www.chip45.com/products/sammy-c21-1.0_atmel_smart_arm_sam_module_samc21_usb_dual_can_duet3d.php) from [Chip45](https://www.chip45.com/).
 
 The firmware is a modified version of the [Duet3Expansion Sammy-C21 firmware](https://github.com/Duet3D/Duet3Expansion) by [Duet3D](https://www.duet3d.com/)  
