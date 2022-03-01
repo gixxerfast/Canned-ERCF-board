@@ -35,7 +35,7 @@ There's a 4.7 Kohms pullup resistor on the TX/RX UART line as the BTT TMC2209 st
 
 There are two pin pairs for the CAN bus so either the CAN-bus can be terminated by closing the solder brideg on the back of the board or it can be routed to the next board in the chain,
 
-![Canned ERCF Board rear first version](/img/canned-ercf-board-rear.jpg)
+![Canned ERCF Board connected to Voron V0.1 Duet 3 mini5+ via CAN](/img/connected-canned-ercf-beta2.jpg)
 
 ## BOM
 Apart from the board as specified in the KiCad files with the SMT components which I have had mounted by JLCPCB, there a number of components needed to complete the board
